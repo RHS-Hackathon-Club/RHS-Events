@@ -1,0 +1,4 @@
+include rhs_events/schema.sql
+graft rhs_events/static
+graft rhs_events/templates
+global-exclude *.pyc
