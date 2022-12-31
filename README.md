@@ -13,7 +13,7 @@ venv/Scripts/activate
 ```
 (macOS)
 ```console
-. venv/bin/activate
+. source venv/bin/activate
 ```
 then install Flask:
 ```console
@@ -21,9 +21,9 @@ pip install Flask
 ```
 To initialize the database:
 ```console
-flask --app APP_NAME init-db
+flask --app rhs_events init-db
 ```
 To test:
 ```console
-flask --app APP_NAME --debug run
+flask --app rhs_events --debug run
 ```
